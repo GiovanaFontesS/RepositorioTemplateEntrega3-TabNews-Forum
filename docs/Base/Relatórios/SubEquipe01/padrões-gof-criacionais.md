@@ -248,9 +248,9 @@ const CadastroUsuarioBuilder =
 
 try {
     const usuario = new CadastroUsuarioBuilder()
-        .comNome("Giovana Fontes")
-        .comEmail("giovana@example.com")
-        .comNomeUsuario("giovanafontes")
+        .comNome("Arthur Fernandes")
+        .comEmail("arthur@example.com")
+        .comNomeUsuario("arthurfernandes")
         .build();
 
     console.log(usuario.toJSON());
